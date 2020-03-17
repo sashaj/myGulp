@@ -1,0 +1,16 @@
+doctype html
+html(lang='ru-RU') 
+  include _head
+
+  body
+    .wrapper
+      // === HEADER BEGIN ===
+      include _header
+      // === HEADER END ===
+
+      .main
+        block content
+
+      // === FOOTER BEGIN ===
+      include _footer
+      // === FOOTER END ===
